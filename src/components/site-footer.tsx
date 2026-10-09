@@ -10,6 +10,13 @@ export function SiteFooter() {
           </a>
           .
         </p>
+        <p className="mt-3 max-w-[70ch]">
+          Rebuilt from a{" "}
+          <a href="https://github.com/Brian-Fairbanks/SoundThis" className="text-ivory hover:text-brass">
+            class project
+          </a>{" "}
+          made with Brian Fairbanks, Surge, and Will.
+        </p>
       </div>
     </footer>
   );
